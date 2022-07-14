@@ -1,0 +1,299 @@
+/* 首页的样式 -- 主体main部分*/
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 219px;
+    /* background-color: pink; */
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 455px;
+    /* background-color: yellow; */
+}
+.focus ul img {
+    width: 100%;
+    height: 455px;
+}
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    font-family: 'icomoon';
+    font-size: 16px;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    /* 透明色设置 */
+    background: rgba(0, 0, 0, .4);
+}
+.arrow-right {
+    left: 696px;
+}
+
+.circle {
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+}
+.circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* 做空心小圆点，且边框半透明效果 */
+    border: 2px solid rgba(204, 204, 204, .5);
+    /* 做实心小圆点 */
+    /* background-color: green; */
+}
+.current {
+    background-color: red;
+    box-shadow: 0 0 5px #204;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: aqua; */
+}
+.news {
+    /* width: 250px; */
+    height: 163px;
+    border: 1px solid pink;
+}
+.news-hd {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 20px;
+    font-size: 15px;
+    border-bottom: 1px dotted #ccc;
+}
+.news-hd p {
+    float: left;
+}
+.news-hd a {
+    float: right;
+    font-size: 12px;
+}
+.news-hd a:hover {
+    color: red;
+}
+.news-hd i {
+    font-family: 'icomoon';
+}
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+.news-bd li {
+    height: 23px;
+}
+.news-bd li span {
+    margin-right: 10px;
+}
+
+.lifeservice {
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.grid-area {
+    display: grid;
+    grid-template-columns: repeat(4, 62px);
+    grid-template-rows: repeat(3, 69px);  
+}
+.grid-area li {
+    position: relative;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.hot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 14px;
+    height: 17px;
+    line-height: 15px;
+    background-color: red;
+    color: #fff;
+    font-size: 13px;
+}
+.service-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat;
+}
+.service-icon-huafei {
+    background-position: -17px -16px;
+}
+
+.bargin {
+    height: 75px;
+    margin-top: 5px;
+}
+
+/* recommend模块样式 */
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+    /* background-color: pink; */
+}
+.recommend-hd {
+    float: left;
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recommend-hd img {
+    margin: 30px 0 10px 0;
+}
+.recommend-hd p {
+    font-size: 16px;
+    color: #fff;
+}
+.recommend-bd {
+    float: left;
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recommend-bd ul li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    background-color: pink;
+    margin-top: 8px;
+}
+.recommend-bd ul li img {
+    width: 100%;
+    height: 145px;
+}
+.recommend-bd .last {
+    border-right: none;
+}
+
+/* floor 楼层区样式 */
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.box-hd .tab-list {
+    float: right;
+}
+.box-hd .tab-list li {
+    float: left;
+    line-height: 30px;
+}
+.box-hd .tab-list li a {
+    margin: 0 15px;
+}
+
+.box-bd {
+    height: 360px;
+    /* background-color: pink; */
+} 
+.box-bd>ul>li {
+    float: left;
+    height: 360px;
+}
+.box-bd>ul>li:nth-of-type(1) {
+    width: 209px;
+}
+.box-bd>ul>li:nth-of-type(2) {
+    width: 329px;
+}
+.box-bd>ul>li:nth-of-type(3) {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.box-bd>ul>li:nth-of-type(4) {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.box-bd>ul>li:nth-of-type(5) {
+    width: 220px;
+
+}
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-list {
+    /* 清除浮动--父元素未设置高 */
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.tab-con-list li {
+    float: left;
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+.box-bd li {
+    overflow: hidden;
+}
+.box-bd img {
+    transition: all .5s;
+}
+.box-bd img:hover {
+    margin-left: 8px;
+}
+
+
+/* 电梯导航 */
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+}
+.fixedtool ul li {
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+
+}
+.fixedtool ul li:nth-of-type(1) {
+    background-color: #c81623;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

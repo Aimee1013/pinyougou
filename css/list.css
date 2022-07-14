@@ -1,0 +1,170 @@
+/* 列表页的样式 */
+a:hover {
+    color: #e12228;
+}
+
+.sk-list {
+    float: left;
+}
+.sk-list li {
+    float: left;
+    /* 有了行高，高可不写，代码更简洁 */
+    /* height: 45px; */
+    line-height: 45px;
+    margin: 0 30px;
+}
+.sk-list li a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.sk-list li a:hover,
+.sk-con li a:hover {
+    color: #c81523;
+}
+.sk-con {
+    float: left;
+}
+.sk-con li {
+    float: left;
+    line-height: 45px;
+    margin: 0 20px;
+}
+.sk-con li a {
+    font-size: 15px;
+    font-weight: bold;
+}
+.sk-con li i {
+    font-family: 'icomoon';
+}
+
+
+/* 列表页的内容区域 */
+.sk-bd {
+    margin-top: 25px;
+}
+.sk-bd ul {
+    width: 1212px;
+}
+.sk-goods {
+    float: left;
+    width: 288px;
+    height: 458px;
+    border: 1px solid transparent;
+    margin: 0 12px 15px 0;
+}
+.sk-goods:hover {
+    border: 1px solid #e12228;
+}
+.sk-goods img {
+    display: block;
+    margin-left: 40px;
+}
+.sk-goods-title {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    margin: 20px 10px;
+}
+.sk-goods-price {
+    margin: 0 0 10px 10px;
+}
+.sk-goods-price span {
+    color: #c81523;
+    font-size: 16px;
+}
+.sk-goods-price i {
+    color: #c81523;
+}
+.sk-goods-price del {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a4a4a4;
+}
+.sk-goods-progress {
+    margin: 0 10px;
+}
+
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #b1191a;
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.bar-in {
+    height: 10px;
+    background-color: #f24349;
+    width: 87%;
+}
+.sk-goods-progress em,
+.sk-goods-progress i {
+    color: #f24349;
+}
+.sk-goods-buy {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #b1191a;
+    margin-top: 32px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* page分页模块样式 */
+.page {
+    text-align: center;
+    margin: 40px 0;
+}
+.page-num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7ff;
+}
+.page-num .pn-prev,
+.page-num .pn-next {
+    width: 85px;
+}
+.page-num .pn-dot,
+.page-num .current {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.page-num .current {
+    color: #c81523;
+}
+.page-skip input {
+    width: 46px;
+    height: 36px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: all .3s linear;
+}
+/* 获得焦点元素-只有表单元素需要获取焦点 */
+.page-skip input:focus {
+    width: 60px;
+    border: 1px solid lightseagreen;
+}
+.page-skip button {
+    width: 54px;
+    height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7ff;
+}
+
+
+
+
+
+
+
+
+
+
